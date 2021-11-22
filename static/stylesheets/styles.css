@@ -1,0 +1,54 @@
+#welcomeMsg h1 {
+    text-align: left;
+    color: skyblue;
+    margin-left: 1%;
+}
+
+#welcomeMsg h2 {
+    margin: 2%;
+    margin-top: 5%;
+}
+
+#login {
+    margin-top: 5%;
+    margin: 2%;
+    border:skyblue;
+}
+
+#schedule {
+    display: inline-block;
+    background-color: skyblue;
+    margin-left: 5%;
+    margin-top: 2%;
+    padding: 7px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.textin {
+    border-style: none;
+    vertical-align: middle;
+    transform: scale(0.9);
+    padding-top: 1px;
+    height: 30px;
+    font-size: 20px;
+    width: 140px;
+    
+}
+
+.inputs {
+    background:transparent;
+    border:0;
+    transform: scale(1.5);
+}
+
+.checkboxes {
+    background-color: skyblue;
+    padding: 10px;
+}
+
+.name {
+    background-color: skyblue;
+    
+}

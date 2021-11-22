@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesheets/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="welcomeMsg">
+        <h1>ScheduleIO</h1>
+        <h2>Schedule Meetings with a single click.</h2>
+    </div>
+    
+    <div id='login'>
+        <h3>Please Login to Continue</h1>
+        <form action='/login' method='post'>
+            username: <input name='usr' type='text' />
+            <br />
+            password: <input name='pwd' type='password' />
+            <br />
+            <div id="userType">
+                <p>Not an Admin? <a href="guest.html">Click here to continue as a guest</a>
+                    (hint: usr: admin , pwd: 123) </h4>
+            </div>
+            <input type="submit" />
+        </form>
+    </div>
+</body>
+</html>
